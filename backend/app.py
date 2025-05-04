@@ -84,7 +84,7 @@ def home():
 # Get all jobs
 @app.route("/jobs", methods=["GET"])
 def get_jobs():
-    jobs = list(jobs_collection.find({}, {"_id": 0}))  # Hide _id
+    jobs = list(jobs_collection.find())
     return jsonify(jobs), 200
 
 @app.route('/apply', methods=['POST'])
