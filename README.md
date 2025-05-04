@@ -18,9 +18,14 @@ A full-stack job board platform where users can browse available job listings. I
 
 ---
 
-## 🌟 Features To Add Later (Optional)
+## 🌟 Features To Add Later
 
 - Nodemailer: Send confirmation email after applying for a job
 - JWT Authentication for protected routes
 - Admin Panel to create new jobs
 - Resume upload feature
+
+---
+
+### 🧑‍💻 Author
+#### ⚡️Built by Poshika mangai M
